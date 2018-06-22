@@ -1,0 +1,111 @@
+#teamsProf{
+    margin-top: 50px;
+    border-radius:8px;
+    background:-webkit-linear-gradient(#1D428A,#3e444c);
+  }
+#firstRow{
+  margin-bottom: 40px;
+}
+#headerLogo{
+  img{
+    float: right;
+    width: 180px;
+  }
+}
+#teamYearHeader{
+  margin-top: 70px;
+}
+#teamNameHeader{
+  margin-top: 50px;
+  font-weight: bolder;
+}
+
+@media screen and (max-width: 550px) {
+  #headerLogo{
+    img{
+      width: 250px;
+    }
+  }
+  #teamNameHeader{
+    width: 10%;
+  }
+  #teamYearHeader{
+    display: none;
+  }
+  #teamNameHeader{
+    h1{
+      font-size: 32px;
+      transform: rotate(90deg);
+      transform-origin: left top 0;
+    }
+  }
+}
+
+.playerTables,.compartorColumn{
+  border-radius: 10px;
+  box-shadow:5px 4px 5px black;
+  button{
+    margin-left: 25px;
+  }
+}
+
+.actualTable{
+  width: 100%;
+}
+
+#teamRankStats{
+  .teamCard{
+    margin-top: 80px;
+    h2{
+      font-size: 40px;
+    }
+    .enphasis{
+      thead{
+        tr{
+          th{
+            font-size: 30px;
+            text-align: center;
+          }
+        }
+      }
+      tbody{
+        tr{
+          td{
+            font-size: 21px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 780px) {
+  .tableFaces{
+    img{
+      height: 40px !important;
+      width: 80px !important;
+    }
+  }
+}
+.tableFaces{
+  img{
+    border-radius:100%;
+    width: 100px;
+    height: 60px;
+  }
+}
+#alphaOrder{
+  font-size: 20px;
+}
+#alphaOrder:hover{
+  font-size: 25px;
+}
+#searchContent{
+    margin-top :20px;
+    border-bottom-style:solid;
+    padding-bottom: 20px;
+    a{
+      font-size: 18px;
+      margin: 4px;
+    }
+}

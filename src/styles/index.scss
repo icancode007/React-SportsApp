@@ -1,0 +1,310 @@
+body{
+  font-family: 'Sedgwick Ave Display', cursive;
+}
+.navContent{
+  margin-top: -20px;
+   position: fixed;
+   width: 100%;
+   z-index:1;
+   background-color: #333;
+}
+.redlinedecor{
+  border-bottom-style: solid;
+  border-color:red;
+  background-color: #333;
+}
+.navbar {
+    background-color: #1D428A;
+    .navbar-brand{
+        img{
+          height: 50px;
+          width: 55px;
+        }
+    }
+    .collapse{
+      .navbar-nav{
+        .nav-item{
+          .nav-link{
+            color:white
+          }
+        }
+      }
+    }
+  }
+.collapse{
+  .navbar-nav{
+    .nav-item{
+      .nav-link:hover{
+        border-bottom-style:solid;
+        border-color: white;
+      }
+    }
+  }
+}
+#footer{
+   margin-top: 20px;
+   background-color: #333;
+  .insidefooter{
+     background-color: #1D428A;
+     color: white;
+   }
+  .socialfooter{
+    list-style: none;
+    li{
+      margin-left: 10px;
+      a{
+        img{
+          width: 35px;
+          height:35px;
+        }
+      }
+    }
+
+  }
+}
+
+.d-flex{
+  .teamIcons{
+    position: relative;
+    img{
+      width:27px;
+      height:45px;
+    }
+  }
+}
+
+.teamIcons > a {
+  padding-bottom: 50px;
+}
+.teamIcons > .dropdownStats {
+    display: none;
+    position: absolute;
+    background-color:#1D428A;
+    top: 50px;
+    padding: 15px;
+    list-style: none;
+    border-radius:5px;
+    color: white;
+    font-weight: lighter;
+    z-index: 1;
+}
+.teamIcons > .dropdownStats > li {
+    padding-right: 20px;
+}
+
+
+.teamIcons > ul:after {
+  position: absolute;
+  left:-2px;
+  top: -10px;
+  width: 0;
+  height: 0;
+  content:'';
+  border-left: 14px solid transparent;
+  border-right: 18px solid transparent;
+  border-bottom: 10px solid #1D428A;
+}
+.teamIcons:hover > .dropdownStats {
+    display:block;
+}
+.underline{
+  height: 50px;
+  padding-right: -55px;
+  padding-left: -65px;
+  margin-right: auto;
+  margin-left: auto;
+}
+@media (min-width: 768px) {
+  .underline {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .underline {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .underline {
+    width: 1300px;
+  }
+}
+.carouselStyle{
+  margin-top: 60px;
+  width: 1100px;
+  height: 450px;
+  border-radius: 10px;
+}
+.Caro{
+  border-bottom-style: solid;
+  border-color:#1D428A;
+  margin-top: 20px;
+  .carousel-inner{
+    .carousel-item{
+      margin-bottom: 20px;
+    }
+  }
+}
+.btn-primary{
+    margin-bottom: 10px;
+}
+
+h1{
+  text-align: center;
+}
+h5{
+  text-align: center;
+  margin-left: 205px;
+}
+
+.searchIn{
+  margin-top:10px;
+}
+
+.saveCompo{
+  margin-left: 18px;
+}
+.savedP{
+  margin-left:5px;
+  width: 195px;
+  height: 415px;
+  img{
+    width: 185px;
+    height: 135px;
+  }
+}
+.col-sm-3{
+  border-left-style: solid;
+  border-color: #1D428A;
+}
+thead{
+  tr{
+    width: 1000px;
+    .numero{
+      width: 50px;
+    }
+    .nombre{
+      width: 240px;
+
+    }
+  }
+}
+tbody{
+  td{
+    width:0px;
+    img{
+      width:50px;
+      height:40px;
+    }
+  }
+}
+.playerSearchHeading{
+  margin-top: 45px;
+}
+.playerToggler{
+  margin-bottom: 10px;
+  button{
+    width: inherit;
+    font-family: inherit;
+  }
+  .btn-danger{
+    width: 85px;
+  }
+}
+.cubeta{
+  margin-top:20px;
+}
+.currTeam,.oppsTeam{
+  margin-top: 150px;
+  width: 100%;
+  height: 400px;
+  border-color: red;
+  border-style: solid;
+  margin-left: 60px;
+  margin-right: 60px;
+}
+.oppsTeam{
+  display:none;
+}
+.comparator{
+  margin-top: 50px;
+}
+.compBtn{
+  margin-right: 60px;
+}
+.titleCont{
+    margin-top:40px;
+    h3{
+      text-align: center;
+    }
+    #alphabetOrder{
+      border-bottom-style: solid ;
+      width:1120px;
+      height: 40px;
+    }
+}
+.PlayerProfilecontainer{
+  box-shadow: 5px 7px 12px grey;
+  border-radius: 8px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  h3{
+    text-align: center;
+  }
+  .card{
+    width:145px;
+    img{
+      width:140px;
+    }
+  }
+
+}
+.profilePlayerCard{
+  list-style: none;
+  li{
+    margin-bottom: 12px;
+  }
+}
+.comparePlayerIcon{
+  width: 180px;
+  height: 110px;
+}
+.compareInput{
+  font-weight: bold;
+}
+.tablecont{
+  margin-left:15px;
+}
+.tabledata{
+  margin-right:-140px;
+}
+.table td, .table th{
+  padding: .5rem;
+  vertical-align: top;
+  border-top: 1px solid #eceeef;
+}
+.customContainer{
+  padding-right: 10px;
+  padding-left: 10px;
+  margin-right: auto;
+  margin-left: auto;
+}
+#tablePlayer{
+  margin-top:10px;
+  margin-bottom:15px;
+}
+@media (min-width: 768px) {
+  .customContainer {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .customContainer {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .customContainer {
+    width: 1440px;
+  }
+}
