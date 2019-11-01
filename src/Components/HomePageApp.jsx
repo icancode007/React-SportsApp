@@ -1,5 +1,5 @@
 import { connect } from 'react-redux';
-import { searchForPlayer,toggleView } from '../Actions';
+import { searchForPlayer, toggleView } from '../Actions';
 import  HomePage  from './HomePage';
 
 export default connect(

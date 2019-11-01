@@ -79,7 +79,8 @@ const nbaRosterList = (dispatch,team) => {
       const playerIds = roster.commonTeamRoster.map(player => player.playerId);
       Promise.all(playerArr(playerIds)).then(data =>{
         objArr(data)
-        dispatch(showPlayerList(dataContainer))})
+        dispatch(showPlayerList(dataContainer)
+      )})
         //await Promise.all(playerArr(playerIds))
         //const data = await Promise.all(playerArr(playerIds))
         //wrap it in a try catch

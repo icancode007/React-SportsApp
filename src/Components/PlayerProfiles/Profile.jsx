@@ -38,7 +38,7 @@ const Profile = ({totals,seasons,playerId}) => (
             seasons.slice(0).reverse().map((season,index)=>
               <tr key={index}>
                 <td>{season.teamAbbreviation}</td>
-                <td>{season.seasonId.slice(2:4)}</td>
+                <td>{season.seasonId.slice(2,4)}</td>
                 <td>{season.pts}</td>
                 <td>{season.reb}</td>
                 <td>{season.ast}</td>

@@ -4,10 +4,11 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "axios": "^0.16.2",
-    "lodash": "^4.17.10",
-    "nba": "^4.2.2",
-    "npm": "^6.1.0",
+    "axios": "^0.19.0",
+    "eslint": "^6.6.0",
+    "lodash": "^4.17.15",
+    "nba": "^4.3.2",
+    "npm": "^6.12.1",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
     "react-redux": "^5.0.5",
@@ -16,9 +17,8 @@
     "redux": "^3.7.2"
   },
   "devDependencies": {
-    "eslint": "^4.19.1",
     "gh-pages": "^1.1.0",
-    "react-scripts": "^1.1.4"
+    "react-scripts": "^3.2.0"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -26,5 +26,17 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
     "deploy": "npm run build&&gh-pages -d build"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
